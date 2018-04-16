@@ -11,3 +11,11 @@ After obtaining the hand outline, fingertips then can be found by thinking this 
 Then, if cameras are calibrated, their video feed can be rectified and epipolar geometry can be used to obtain 3D real world positions of the fingertips, from their 2D pixel positions on the images.
 
 Written in C++. Used OpenCV library for computer vision related functionality, and SFML for GUI.
+
+In "src" folder;
+
+"Mono" is the source of finding fingertips using single camera and being able to see each step in the GUI.
+![mono](img/mono.jpg "Mono")
+
+"Stereo" is the source of camera calibration and finding 3D positions. It doesn't have a nice GUI.
+![stereo](img/stereo.png "Stereo")
