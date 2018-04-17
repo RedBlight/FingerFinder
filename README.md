@@ -16,6 +16,8 @@ In "src" folder;
 "Mono" is the source of finding fingertips using single camera and being able to see each step in the GUI.
 "Stereo" is the source of camera calibration and finding 3D positions. It doesn't have a nice GUI.
 
-## Here are some screenshots:
+### Here are some screenshots:
+
 ![mono](img/mono.jpg "Mono")
+
 ![stereo](img/stereo.png "Stereo")
